@@ -4,7 +4,7 @@ dotenv.config();
 
 export const env = {
   port: Number(process.env.PORT || 3001),
-  clientUrl: process.env.CLIENT_URL || "http://localhost:5173",
+  clientUrl: process.env.CLIENT_URL || "https://nervoflowaiii.onrender.com",
   mongoUri: process.env.MONGODB_URI || "",
   jwtSecret: process.env.JWT_SECRET || "dev-neuroflow-secret-change-me",
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || "7d",
